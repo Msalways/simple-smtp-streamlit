@@ -1,0 +1,283 @@
+[
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "db.config",
+        "description": "db.config",
+        "isExtraImport": true,
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "SMTPConfig",
+        "importPath": "db.models.SMTPConfig",
+        "description": "db.models.SMTPConfig",
+        "isExtraImport": true,
+        "detail": "db.models.SMTPConfig",
+        "documentation": {}
+    },
+    {
+        "label": "SMTPConfig",
+        "importPath": "db.models.SMTPConfig",
+        "description": "db.models.SMTPConfig",
+        "isExtraImport": true,
+        "detail": "db.models.SMTPConfig",
+        "documentation": {}
+    },
+    {
+        "label": "test_email_with_smtp",
+        "importPath": "email_sender",
+        "description": "email_sender",
+        "isExtraImport": true,
+        "detail": "email_sender",
+        "documentation": {}
+    },
+    {
+        "label": "EmailSender",
+        "importPath": "email_sender",
+        "description": "email_sender",
+        "isExtraImport": true,
+        "detail": "email_sender",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit_quill",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit_quill",
+        "description": "streamlit_quill",
+        "detail": "streamlit_quill",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEApplication",
+        "importPath": "email.mime.application",
+        "description": "email.mime.application",
+        "isExtraImport": true,
+        "detail": "email.mime.application",
+        "documentation": {}
+    },
+    {
+        "label": "guess_type",
+        "importPath": "mimetypes",
+        "description": "mimetypes",
+        "isExtraImport": true,
+        "detail": "mimetypes",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "SMTPConfig",
+        "kind": 6,
+        "importPath": "db.models.SMTPConfig",
+        "description": "db.models.SMTPConfig",
+        "peekOfCode": "class SMTPConfig(Base):\n    __tablename__ = \"smtp_config\"\n    id = Column(Integer,primary_key=True, default=1)\n    smtp_host = Column(String,nullable=False)\n    smtp_port = Column(Integer,nullable=False)\n    smtp_email = Column(String,nullable=False)\n    smtp_password = Column(String,nullable=False)",
+        "detail": "db.models.SMTPConfig",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "db.config",
+        "description": "db.config",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass",
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "db.config",
+        "description": "db.config",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\", \"sqlite:///db.sqlite3\")\nclass Base(DeclarativeBase):\n    pass",
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "views.integration",
+        "description": "views.integration",
+        "peekOfCode": "session = Session()\nsmtpConfig = session.query(SMTPConfig).first()\n# Debugging - Display current configuration in Streamlit\n# st.write(\"Current Config:\", \"No SMTP configuration found.\" if not smtpConfig)\nif not smtpConfig:\n    st.write(\"SMTP Not Configured\")\nwith st.form(key='smtp_form'):\n    smtp_host = st.text_input('SMTP Host', value=smtpConfig.smtp_host if smtpConfig else '')\n    smtp_port = st.number_input('SMTP Port', value=smtpConfig.smtp_port if smtpConfig else 465, min_value=1, max_value=65535)\n    smtp_email = st.text_input('SMTP Email', value=smtpConfig.smtp_email if smtpConfig else '')",
+        "detail": "views.integration",
+        "documentation": {}
+    },
+    {
+        "label": "smtpConfig",
+        "kind": 5,
+        "importPath": "views.integration",
+        "description": "views.integration",
+        "peekOfCode": "smtpConfig = session.query(SMTPConfig).first()\n# Debugging - Display current configuration in Streamlit\n# st.write(\"Current Config:\", \"No SMTP configuration found.\" if not smtpConfig)\nif not smtpConfig:\n    st.write(\"SMTP Not Configured\")\nwith st.form(key='smtp_form'):\n    smtp_host = st.text_input('SMTP Host', value=smtpConfig.smtp_host if smtpConfig else '')\n    smtp_port = st.number_input('SMTP Port', value=smtpConfig.smtp_port if smtpConfig else 465, min_value=1, max_value=65535)\n    smtp_email = st.text_input('SMTP Email', value=smtpConfig.smtp_email if smtpConfig else '')\n    smtp_password = st.text_input('SMTP Password', type='password')",
+        "detail": "views.integration",
+        "documentation": {}
+    },
+    {
+        "label": "integrationPage",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "integrationPage = st.Page(\n    page=\"views/integration.py\",\n    title=\"Integration\"\n)\nsendMailPage = st.Page(\n    page=\"views/send_mail.py\",\n    title=\"Send Mail\",\n    default=True\n)\npg = st.navigation(",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "sendMailPage",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "sendMailPage = st.Page(\n    page=\"views/send_mail.py\",\n    title=\"Send Mail\",\n    default=True\n)\npg = st.navigation(\n    pages=[sendMailPage,integrationPage]\n)\npg.run()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "pg",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "pg = st.navigation(\n    pages=[sendMailPage,integrationPage]\n)\npg.run()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "EmailSender",
+        "kind": 6,
+        "importPath": "email_sender",
+        "description": "email_sender",
+        "peekOfCode": "class EmailSender:\n    def __init__(self):\n        try:\n            session = Session()\n            smtpConfig = session.query(SMTPConfig).first()\n            if not smtpConfig:\n                raise ValueError(\"SMTP Not Configured\")\n            self.smtp_host = smtpConfig.smtp_host\n            self.smtp_port = smtpConfig.smtp_port\n            self.smtp_email = smtpConfig.smtp_email",
+        "detail": "email_sender",
+        "documentation": {}
+    },
+    {
+        "label": "test_email_with_smtp",
+        "kind": 2,
+        "importPath": "email_sender",
+        "description": "email_sender",
+        "peekOfCode": "def test_email_with_smtp(smtp_host,smtp_port,smtp_email,smtp_password,test_mail):\n    try:\n        server = sl.SMTP_SSL(smtp_host,smtp_port)\n        server.login(smtp_email, smtp_password)\n        msg = MIMEMultipart()\n        msg[\"From\"] = smtp_email\n        msg[\"Subject\"] = \"Test Email\"\n        msg.attach(MIMEText(\"Test Email Body\", \"html\"))\n        server.sendmail(smtp_email, test_mail, msg.as_string())\n        server.quit()",
+        "detail": "email_sender",
+        "documentation": {}
+    }
+]
